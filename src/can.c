@@ -184,8 +184,8 @@ void can_set_bitrate(enum can_bitrate bitrate)
         case CAN_BITRATE_10K:
         	prescaler = 1000;
             break;
-        case CAN_BITRATE_20K:
-        	prescaler = 500;
+        case CAN_BITRATE_20K: // repurposed for 33.333 kbit/s
+            prescaler = 300;
             break;
         case CAN_BITRATE_50K:
         	prescaler = 200;
@@ -206,7 +206,7 @@ void can_set_bitrate(enum can_bitrate bitrate)
             prescaler = 20;
             break;
         case CAN_BITRATE_750K:
-            prescaler = 7;// THIS IS VERY INACCURATE!!! FIXME
+            prescaler = 13;
             break;
         case CAN_BITRATE_1000K:
         default:

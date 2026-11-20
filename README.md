@@ -7,7 +7,7 @@ This repository contains sources for the slcan CANable 2.0 firmware. This firmwa
 - `O` - Open channel 
 - `C` - Close channel 
 - `S0` - Set nominal bitrate to 10k
-- `S1` - Set nominal bitrate to 20k
+- `S1` - Set nominal bitrate to 33k
 - `S2` - Set nominal bitrate to 50k
 - `S3` - Set nominal bitrate to 100k
 - `S4` - Set nominal bitrate to 125k
