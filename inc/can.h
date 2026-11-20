@@ -14,6 +14,7 @@ enum can_bitrate {
     CAN_BITRATE_750K,
     CAN_BITRATE_1000K,
 	CAN_BITRATE_83_3K,
+	CAN_BITRATE_95_2K,   // Opel MS-CAN, slcan "SA"
 
 	CAN_BITRATE_INVALID,
 };

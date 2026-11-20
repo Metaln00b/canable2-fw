@@ -16,6 +16,7 @@ This repository contains sources for the slcan CANable 2.0 firmware. This firmwa
 - `S7` - Set nominal bitrate to 750k
 - `S8` - Set nominal bitrate to 1M
 - `S9` - Set nominal bitrate to 83.3k
+- `SA` - Set nominal bitrate to 95.2k (Opel MS-CAN)
 - `Y2` - Set data bitrate to 2M (CANFD only) (default)
 - `Y5` - Set data bitrate to 5M (CANFD only)
 - `M0` - Set mode to normal mode (default)

@@ -193,6 +193,9 @@ void can_set_bitrate(enum can_bitrate bitrate)
         case CAN_BITRATE_83_3K:
         	prescaler = 120;
         	break;
+        case CAN_BITRATE_95_2K:
+        	prescaler = 105; // 170 MHz / (105 * 17 tq) = 95238 bit/s (Opel MS-CAN)
+        	break;
         case CAN_BITRATE_100K:
             prescaler = 100;
             break;
